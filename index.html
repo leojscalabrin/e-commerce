@@ -15,19 +15,85 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class='logo-wrapper'>
-            <a class="logo" href='/'>
-                <h1 class='logo-title'>Roux</h1>
-                <h2 class='logo-sub-title'>Building awesome sites</h2>
-            </a>
-            <span class="welcome">Bem vindo, Fulano de Tal</span>
-        </div>
-        <div class="button-header-wrapper">
-            <button class="button button--purple">Cadastrar produto</button>
-            <button class="button button--red">Sair</button>
-        </div>
+    <header class='header container-center'>
+        <section class="container-top-bar">
+            <div class='logo-wrapper'>
+                <a class="logo" href='/'>
+                    <h3 class='logo-title'>Roux</h3>
+                    <h3 class='logo-sub-title'>Building awesome sites</h3>
+                </a>
+                <span class="welcome">Bem vindo, Fulano de Tal</span>
+            </div>
+            <div class="button-header-wrapper">
+                <button class="button button--purple button--purple-header">Cadastrar produto</button>
+                <button class="button button--red">Sair</button>
+            </div>
+        </section>
+            <section class="container-search">
+
+                <h1 class="store-title">Minha loja</h1>
+                <form class="search-box">
+                    <input class="text-field text-field--search" placeholder="O que deseja buscar?">
+                    <button class="button search-button button--small">Pesquisar</button>
+                </form>
+            </section>
     </header>
+    <section class="container-product-list container-center">
+        <ul class="product-list">
+            <li class="product">
+                <figure>
+                    <img class='image' src='./images/logo.svg'>
+                </figure>
+                <div class="price-box">
+                    <h3 class="product-name">Logo - Mascote</h3>
+                    <strong class="product-price">Preço: R$ 120,00</strong>
+                </div>
+                <div class="button-box">
+                    <button class="button button--small">Vender</button>
+                    <button class="button button--small">Comprar</button>
+                </div>
+            </li>
+            <li class="product">
+                <figure>
+                    <img class='image' src='./images/logo.svg'>
+                </figure>
+                <div class="price-box">
+                    <h3 class="product-name">Logo - Mascote</h3>
+                    <strong class="product-price">Preço: R$ 120,00</strong>
+                </div>
+                <div class="button-box">
+                    <button class="button button--small">Vender</button>
+                    <button class="button button--small">Comprar</button>
+                </div>
+            </li>
+            <li class="product">
+                <figure>
+                    <img class='image' src='./images/logo.svg'>
+                </figure>
+                <div class="price-box">
+                    <h3 class="product-name">Logo - Mascote</h3>
+                    <strong class="product-price">Preço: R$ 120,00</strong>
+                </div>
+                <div class="button-box">
+                    <button class="button button--small">Vender</button>
+                    <button class="button button--small">Comprar</button>
+                </div>
+            </li>
+            <li class="product">
+                <figure>
+                    <img class='image' src='./images/logo.svg'>
+                </figure>
+                <div class="price-box">
+                    <h3 class="product-name">Logo - Mascote</h3>
+                    <strong class="product-price">Preço: R$ 120,00</strong>
+                </div>
+                <div class="button-box">
+                    <button class="button button--small">Vender</button>
+                    <button class="button button--small">Comprar</button>
+                </div>
+            </li>
+        </ul>
+    </section>
 </body>
 
 </html>
